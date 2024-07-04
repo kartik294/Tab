@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 
@@ -71,30 +71,7 @@ const Page = () => {
 
       <div className="flex flex-col items-center justify-center mt-8">
         <h2 className="text-2xl font-bold mb-4">Other Content</h2>
-        <form className="flex flex-col items-center">
-          <label className="mb-2">
-            Name:
-            <input
-              type="text"
-              className="border border-gray-400 rounded px-2 py-1 ml-2"
-              placeholder="Enter your name"
-            />
-          </label>
-          <label className="mb-2">
-            Email:
-            <input
-              type="email"
-              className="border border-gray-400 rounded px-2 py-1 ml-2"
-              placeholder="Enter your email"
-            />
-          </label>
-          <button
-            type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 mt-4"
-          >
-            Submit
-          </button>
-        </form>
+        <p className="text-center">Additional content can go here.</p>
       </div>
     </div>
   );
